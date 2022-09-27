@@ -80,12 +80,19 @@
 }
 
 
-
-
+/* settimo esercizio */
 
 .ex-7-img {
   width: 500px;
+  transition: all 1.2s;
 }
+
+.ex-7-img:hover {
+  filter: grayscale(90%);
+  filter: sepia(40%);
+}
+
+
 
 
 .ex-8-img {
