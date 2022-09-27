@@ -19,11 +19,13 @@
   width: 100px;
   height: 100px;
   background: red;
+  transition: transform 2s;
 }
 
 
 .ex-2-square:active {
-  transform: scaleX(4);
+  transform: scaleX(11);
+  transform-origin: left;
 }
 
 /* terzo esercizio  */
@@ -138,10 +140,27 @@
   }
 }
 
+ /* undicesimo esercizio */
 
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation-name: rotation-anti;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes rotation-anti {
+  0% {
+    transform: rotate(345deg);
+  }
+}
+
+
 .ex-12-button, .ex-13-button {
   position: relative;
   display: block;
