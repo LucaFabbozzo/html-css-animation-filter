@@ -93,10 +93,19 @@
 }
 
 
+/* ottavo esercizio */
 
 
 .ex-8-img {
   width: 500px;
+  transition: all 1.3s;
+}
+
+.ex-8-img:hover {
+  border-radius: 20px;
+  filter: contrast(60%);
+  filter: grayscale(70%);
+  
 }
 
 
